@@ -22,31 +22,14 @@
     data() {
       return {
         id: this.$route.params.id,
-        posts: [
-          {
-            id: 'joe',
-            title: 'Quis nostrud exercitation',
-            content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam'
-          },
-          {
-            id: 'jack',
-            title: 'Cillum dolore eu fugiat',
-            content: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.'
-          },
-          {
-            id: 'karl',
-            title: 'Occaecat cupidatat',
-            content: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
-          }
-        ]
       }
     },
     computed: {
       post() {
-      return this.posts.find(post => post.id === this.id)
+      return this.$store.state.posts.all.find(post => post.id === this.id)
       },
       relatedPosts() {
-        return this.posts.filter(post => post.id !== this.id)
+      return this.$store.state.posts.all.filter(post => post.id !== this.id)
       }
     }
   }

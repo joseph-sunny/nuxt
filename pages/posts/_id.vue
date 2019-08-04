@@ -19,6 +19,17 @@
 
 <script>
   export default {
+    head () {
+      return {
+        title: this.post.title,
+        meta: [
+          {name: 'twitter:title', title: this.post.title},
+          {name: 'twitter:description', content: this.post.content},
+          {name: 'twitter:image', content: "~/components/Logo.vue"},
+          {name: 'twitter:card', content: "summary_large_image"}
+        ]
+      }
+    },
     data() {
       return {
         id: this.$route.params.id,

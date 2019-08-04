@@ -4,6 +4,14 @@ module.exports = {
   /*
   ** Headers of the page
   */
+
+  generate: {
+    routes: [
+      '/posts/joe',
+      '/posts/karl',
+      '/posts/jack'
+    ]
+  },
   head: {
     title: process.env.npm_package_name || '',
     meta: [

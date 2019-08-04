@@ -30,7 +30,7 @@ export default {
   },
   head () {
     return {
-      title: "My Vue project!",
+      title: "Nuxt.js fundamentals",
       meta: [
           {name: 'twitter:title', title: 'Nuxt fundamentals'},
           {name: 'twitter:description', content: 'Learning the fundamentals of Nuxt.js'},

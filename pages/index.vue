@@ -3,10 +3,10 @@
     <div>
       <logo/>
       <h1 class="title">
-        nuxt-fundamentals
+        Nuxt fundamentals
       </h1>
       <h2 class="subtitle">
-        My gnarly Nuxt.js project
+        Learning the fundamentals of Nuxt.js
       </h2>
       <div class="links">
         <nuxt-link 
@@ -30,7 +30,7 @@ export default {
   },
   head () {
     return {
-      title: "Nuxt fundamentals",
+      title: "My Vue project!",
       meta: [
           {name: 'twitter:title', title: 'Nuxt fundamentals'},
           {name: 'twitter:description', content: 'Learning the fundamentals of Nuxt.js'},

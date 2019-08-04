@@ -2,9 +2,9 @@
     <nav class="nav">
         <div class="logo">
             <nuxt-link :to="{name:'index'}" class="logo text-lg">
-                Brew Podcast
-            </nuxt-link>
-            <span class="subheader">Easiest way to create a podcast</span>
+                Nuxt fundamentals
+            </nuxt-link><br/>
+            <span class="subheader">Learning the fundamentals of Nuxt.js</span>
         </div>
     </nav>
 </template>

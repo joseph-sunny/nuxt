@@ -32,8 +32,8 @@ export default {
     return {
       title: "My Vue project!",
       meta: [
-          {name: 'twitter:title', title: 'Learning Nuxt with Vueschool'},
-          {name: 'twitter:description', content: 'Best tutorial on how to start working on nuxt project'},
+          {name: 'twitter:title', title: 'Nuxt fundamentals'},
+          {name: 'twitter:description', content: 'Learning the fundamentals of Nuxt.js'},
           {name: 'twitter:image', content: "~/components/Logo.vue"},
           {name: 'twitter:card', content: "summary_large_image"}
         ]
